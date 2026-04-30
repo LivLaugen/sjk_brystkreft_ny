@@ -109,7 +109,7 @@ Not to be used to record details related to the overall findings, context or tec
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"91fa4fba0e11251c247dca81abbc171a">
+		["MD5-CAM-1.0.1"] = <"5371d8f7618f76e7ffbd616fee8d79d5">
 		["build_uid"] = <"fee56c3f-54f5-4fb2-9f83-f1367d9d22a0">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
@@ -220,7 +220,7 @@ ontology
 				>
 				["at0041"] = <
 					text = <"Calcification">
-					description = <"Presence of calcification in the anomaly.">
+					description = <"Presence of calcification within the lesion (detected by mammography/CT) and/or NME (Non‑Mass Enhancement) on MRI examination.">
 				>
 				["at0017"] = <
 					text = <"Present">
@@ -371,7 +371,7 @@ ontology
 				>
 				["at0041"] = <
 					text = <"Forkalkning/NME">
-					description = <"Tilstedeværelse av forkalkning i lesjonen og/eller NME (Non‑Mass Enhancement)  ved MR undersøkelse.">
+					description = <"Tilstedeværelse av forkalkning i lesjonen (påvist ved mammografi/CT) og/eller NME (Non‑Mass Enhancement) ved MR‑undersøkelse.">
 				>
 				["at0042"] = <
 					text = <"Beskrivelse av forkalkning">
@@ -406,7 +406,7 @@ ontology
 				>
 				["at0041"] = <
 					text = <"Kalzifizierung">
-					description = <"Vorhandensein von Verkalkung in der Anomalie.">
+					description = <"*Presence of calcification within the lesion (detected by mammography/CT) and/or NME (Non‑Mass Enhancement) on MRI examination. (en)">
 				>
 				["at0017"] = <
 					text = <"Vorhanden">
