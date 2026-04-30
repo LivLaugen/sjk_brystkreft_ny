@@ -109,7 +109,7 @@ Not to be used to record details related to the overall findings, context or tec
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3bd3c19e12484fd641fd8a58bad9ba5f">
+		["MD5-CAM-1.0.1"] = <"7f45a8029576b79e991e6b379ec3d9b0">
 		["build_uid"] = <"fee56c3f-54f5-4fb2-9f83-f1367d9d22a0">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
@@ -224,11 +224,11 @@ ontology
 				>
 				["at0017"] = <
 					text = <"Present">
-					description = <"Calcification is present.">
+					description = <"Calcification/NME is present.">
 				>
 				["at0018"] = <
 					text = <"Absent">
-					description = <"Calcification is not present.">
+					description = <"Calcification/NME is not present.">
 				>
 				["at0000"] = <
 					text = <"Imaging examination of an anomaly">
@@ -268,7 +268,7 @@ ontology
 				>
 				["at0032"] = <
 					text = <"Indeterminate">
-					description = <"It is not possible to determine if calcification is present or absent.">
+					description = <"It is not possible to determine if calcification/NME is present or absent.">
 				>
 				["at0035"] = <
 					text = <"Label">
@@ -410,11 +410,11 @@ ontology
 				>
 				["at0017"] = <
 					text = <"Vorhanden">
-					description = <"*Calcification is present. (en)">
+					description = <"*Calcification/NME is present. (en)">
 				>
 				["at0018"] = <
 					text = <"Nicht vorhanden">
-					description = <"*Calcification is not present. (en)">
+					description = <"*Calcification/NME is not present. (en)">
 				>
 				["at0044"] = <
 					text = <"Beschreibung der Vaskularisierung.">
@@ -454,7 +454,7 @@ ontology
 				>
 				["at0032"] = <
 					text = <"*Indeterminate (en)">
-					description = <"*It is not possible to determine if calcification is present or absent (en)">
+					description = <"*It is not possible to determine if calcification/NME is present or absent. (en)">
 				>
 				["at0035"] = <
 					text = <"*Label(en)">
