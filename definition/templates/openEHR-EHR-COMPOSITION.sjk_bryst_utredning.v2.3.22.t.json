@@ -28,10 +28,10 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "55b91394dd34ec81c358d30ac992aca4",
+      "MD5-CAM-1.0.1" : "5f0414f64045bac69058258d6b1d1c1a",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb",
-      "sem_ver" : "418.0.2",
+      "sem_ver" : "419.0.0",
       "build_uid" : "4a8e0ae9-5bc9-4429-9d1a-3e377fc6f52b"
     },
     "details" : {
@@ -24651,6 +24651,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "nb" : {
@@ -24693,6 +24697,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "pt-br" : {
@@ -24735,6 +24743,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "de" : {
@@ -24777,6 +24789,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "nl" : {
@@ -24819,6 +24835,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "sv" : {
@@ -24853,6 +24873,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "es" : {
@@ -24895,6 +24919,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "ca" : {
@@ -24937,6 +24965,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "zh-cn" : {
@@ -24979,6 +25011,10 @@
           "/items[at0003.1]" : {
             "hl7v2_mapping" : "NTE.3",
             "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0001.2]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         }
       }
@@ -25065,11 +25101,67 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "F29601",
-                    "value" : "HER2 neg (0)"
+                    "value" : "HER2 neg (0)",
+                    "translations" : {
+                      "nb" : "HER2 neg (0 og 1+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29602",
-                    "value" : "HER2 borderline (1+2+)"
+                    "value" : "HER2 borderline (1+2+)",
+                    "translations" : {
+                      "nb" : "HER2 borderline (2+)"
+                    }
+                  }, {
+                    "terminologyId" : "NORPAT",
+                    "code" : "F29603",
+                    "value" : "HER2 pos (3+)"
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0001.2",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "existence" : "0..1",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "NORPAT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "NORPAT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "NORPAT",
+                    "code" : "F29601",
+                    "value" : "HER2 neg (0)",
+                    "translations" : {
+                      "nb" : "HER2 neg (0 og 1+)"
+                    }
+                  }, {
+                    "terminologyId" : "NORPAT",
+                    "code" : "F29602",
+                    "value" : "HER2 borderline (1+2+)",
+                    "translations" : {
+                      "nb" : "HER2 borderline (2+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29603",
@@ -25239,6 +25331,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "The result of a laboratory test for a single analyte value."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Analyte result (2)",
+            "description" : "The value of the analyte result.",
+            "comment" : "For example '7.3 mmol/l', 'Raised'. The 'Any' data type will need to be constrained to an appropriate data type in a specialisation, a template or at run-time to reflect the actual analyte result. The Quantity data type has reference model attributes that include flags for normal/abnormal, reference ranges and approximations - see https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class for more details.",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "nb" : {
@@ -25266,6 +25367,15 @@
             "comment" : "Designkommentar:\nResultatet for HER2 analsyen gjort ved hjelp av immunihistokjemi (IHC). Navn på analysen sier at dette er en immunihistokjemi, og denne svarkoden sier noe om resultatet av denne analyseprosedyren.",
             "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
             "fhir_mapping" : "Observation.value[x]"
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.2",
+            "text" : "HER2 IHC-score",
+            "description" : "Resultatet for HER2 analsyen gjort ved hjelp av immunihistokjemi (IHC).",
+            "comment" : "Designkommentar:\nResultatet for HER2 analsyen gjort ved hjelp av immunihistokjemi (IHC). Navn på analysen sier at dette er en immunihistokjemi, og denne svarkoden sier noe om resultatet av denne analyseprosedyren.",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "pt-br" : {
@@ -25274,6 +25384,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "*The result of a laboratory test for a single analyte value.(en)"
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "*Analyte result(en) (2)",
+            "description" : "*The value of the analyte result.(en)",
+            "comment" : "*For example '7.3 mmol/l', 'Raised'. The 'Any' data type will need to be constrained to an appropriate data type in a specialisation, a template or at run-time to reflect the actual analyte result. The Quantity data type has reference model attributes that include flags for normal/abnormal, reference ranges and approximations - see https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class for more details.(en)",
+            "hl7v2_mapping" : "*OBX.2,OBX.5,OBX.6(en)",
+            "fhir_mapping" : "*Observation.value[x](en)"
           }
         },
         "de" : {
@@ -25282,6 +25401,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "Ergebnis einer Laboranalyse für einen bestimmten Analytwert."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Analyt-Ergebnis (2)",
+            "description" : "(Mess-)Wert des Analyt-Ergebnisses.",
+            "comment" : "Z.B. \"7,3 mmol/l\", \"Erhöht\". Der \"Any\"-Datentyp wird dann durch eine Spezialisierung, eine Vorlage oder zur Laufzeit der Anwendung auf einen passenden Datentyp eingeschränkt werden müssen, um das aktuelle Analyt-Ergebnis wiederzugeben. Der \"Quantity\"-Datentyp hat Referenzmodell-Attribute, wie Kennungen für normal/abnormal, Referenzbereiche und Näherungen - für weitere Details s. https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class .",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "nl" : {
@@ -25290,6 +25418,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "Het resultaat van een laboratorium test voor een bepaling van een enkele bepaling."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Uitslag van een analyt (2)",
+            "description" : "De waarde van een analyt uitslag.",
+            "comment" : "Bijvoorbeeld: '7.3 mmol/l', 'Verhoogd'. Om het daadwerkelijke analyt result weer te geven dient het 'Any' data type gespecificeerd te worden tot een toepasselijk data type in een specialisatie, een template of terwijl de applicatie loopt.",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "sv" : {
@@ -25298,6 +25435,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "Resultatet för en enskild analys i en laboratorieundersökning."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Analysresultat (2)",
+            "description" : "Analysresultatets värde",
+            "comment" : "Till exempel \"7,3 mmol/L\" eller \"Förhöjd\". Datatypen \"Any\", som är en odefinierad datatyp, måste begränsas till en lämplig datatyp i en specialisering, mall eller applikation. Datatypen \"Quantity\" har attribut från referensmodellen som täcker flaggor för normal/onormal, referensområden och approximationer.\r\nSe https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class för mer information.",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "es" : {
@@ -25306,6 +25452,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "Resultado de una prueba de laboratorio para un valor de analito único."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Resultado del analito (2)",
+            "description" : "Valor del resultado del analito.",
+            "comment" : "Por ejemplo, \"7,3 mmol/l\", \"Elevado\". El tipo de datos \"Cualquiera\" deberá limitarse a un tipo de datos adecuado en una especialización, una plantilla o en tiempo de ejecución para reflejar el resultado real del analito. El tipo de dato \"Cantidad\" tiene atributos de modelo de referencia que incluyen indicadores de normalidad/anormalidad, rangos de referencia y aproximaciones (para más información, véase https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class).",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "ca" : {
@@ -25314,6 +25469,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "Resultat d'una prova de laboratori per a un únic valor d'anàlit."
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Resultat de l'anàlit (2)",
+            "description" : "Valor del resultat de l'anàlit.",
+            "comment" : "Per exemple, «7,3 mmol/l», «Elevat». El tipus de dades «Qualsevol» s'haurà de restringir a un tipus de dades apropiat en una especialització, una plantilla o en un temps d'execució per a reflectir el resultat real de l’anàlit. El tipus de dades «Quantitat» té atributs de model de referència que inclouen indicadors per a normal/anormal, rangs de referència i aproximacions. Veure https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class per a obtindre més detalls.",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         },
         "zh-cn" : {
@@ -25322,6 +25486,15 @@
             "code" : "at0000.1",
             "text" : "HER2 (IHC)",
             "description" : "单项分析物检验项目的结果。"
+          },
+          "at0001.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "分析物结果 (2)",
+            "description" : "分析物结果的取值。",
+            "comment" : "例如，“7.3 mmol/l”、“增高”。需要在特化原始型当中、在模板当中或在运行时将数据类型 'Any' 限制为恰当的数据类型，以反映实际的分析物结果。数据类型 Quantity 具有的参考模型属性包括正常/异常标志、参考范围和近似值。有关详细信息，请参阅 https://specifications.openehr.org/releases/RM/latest/data_types.html#_dv_quantity_class。",
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
           }
         }
       },
