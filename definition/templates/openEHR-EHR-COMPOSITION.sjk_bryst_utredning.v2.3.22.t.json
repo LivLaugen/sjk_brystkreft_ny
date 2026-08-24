@@ -28,10 +28,10 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "5f0414f64045bac69058258d6b1d1c1a",
+      "MD5-CAM-1.0.1" : "63623379d91be577b1fa5caf8287fac7",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "original_language" : "ISO_639-1::nb",
-      "sem_ver" : "419.0.0",
+      "sem_ver" : "420.0.0",
       "build_uid" : "4a8e0ae9-5bc9-4429-9d1a-3e377fc6f52b"
     },
     "details" : {
@@ -48414,11 +48414,17 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "F29601",
-                    "value" : "HER2 neg (0)"
+                    "value" : "HER2 neg (0)",
+                    "translations" : {
+                      "nb" : "HER2 neg (0 og 1+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29602",
-                    "value" : "HER2 borderline (1+2+)"
+                    "value" : "HER2 borderline (1+2+)",
+                    "translations" : {
+                      "nb" : "HER2 borderline (2+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29603",
